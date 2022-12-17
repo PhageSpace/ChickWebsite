@@ -1,0 +1,11 @@
+<div class="blogcontent" id="wrapper">
+
+    <img id="first" src="https://cdn.discordapp.com/avatars/515258866712182805/fa412e15c9e946451dd50450e3a4bdac.webp?size=48" width="200" height="auto"></img>
+    <div id="second">
+        <h1>
+            <a style="font-size: 30px; text-align: left; margin-top: 0%; color: #ffffff;" href="blogs/blog1.html">insert big blog name here </a>
+        </h1>
+         some blog text here
+    </div>
+    
+</div>
