@@ -1,10 +1,81 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>My Cool Website</title>
-   </head>
-   <body>
-      <h1>Welcome to my website! ⭐️</h1>
-      <p>How was your day? 🎉</p>
-   </body>
-</html>
+
+<head>
+    <title>Chick's site</title>
+</head>
+
+<body>
+    <center>
+        <div class="heading">
+            <img src="https://cdn.discordapp.com/avatars/515258866712182805/fa412e15c9e946451dd50450e3a4bdac.webp?size=48">
+            <h1>Chick</h1>
+        </div>
+
+        <div class="maincontent">
+            <div class="wrapper">
+                <a href="blogs.html"><h1 class="rotate">Blogs</h1></a>
+                <div class="ihateflexbox">
+                    <a href="about.html"><h1>About</h1></a>
+                    <a href="projects.html"><h1>Projects</h1></a>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+
+
+<style>
+    html {
+        transform: scale(1.0) !important; /* DANGEROUS AS FUCK */
+        background: black;
+        color: #ffffff !important;
+        font-family: monospace;
+    }
+
+    a {
+        color: #ffffff !important;
+        text-decoration: none;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading > img {
+        width: 48px;
+        height: 48px;
+        margin-top: 7px;
+    }
+
+    .maincontent {
+        margin-top: 25%;
+        margin-right: 0px;
+        font-size: 27px;
+    }
+
+    .rotate {
+        margin-top: 25px;
+        margin-right: -20px;
+        margin-left: 0px;
+        transform: rotate(90deg);
+    }
+
+    .ihateflexbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: -10px;
+        flex-direction: column;
+    }
+
+    .ihateflexbox h1 {
+        margin: 5px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+</style>

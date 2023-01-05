@@ -1,0 +1,58 @@
+
+.topbutton
+{
+    flood-color: black;
+    background-color: rgb(122, 80, 0);
+    height:90px;
+    width:90px;
+    margin-left: 50%;
+    border-radius: 10px;
+
+}
+html {
+    transform: scale(1.0) !important; /* DANGEROUS AS FUCK */
+    background: black;
+    color: #ffffff !important;
+    font-family: monospace;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading > img {
+    width: 48px;
+    height: 48px;
+    margin-top: 7px;
+}
+
+.maincontent {
+    margin-top: 25%;
+    margin-right: 0px;
+    font-size: 27px;
+}
+
+
+.ihateflexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -10px;
+    flex-direction: column;
+}
+
+.ihateflexbox h1 {
+    margin: 5px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

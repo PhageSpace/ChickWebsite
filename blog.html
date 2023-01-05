@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Chick's site</title>
+</head>
+<script src="blog.js"></script> 
+
+<body>
+	<center>
+		<div class="heading">
+			<a href="/"><img src="https://cdn.discordapp.com/avatars/515258866712182805/fa412e15c9e946451dd50450e3a4bdac.webp?size=48"></a>
+			<h1>Chick</h1>
+		</div>
+
+		<div class="maincontentwrapper">
+			<h1>Blogs</h1>
+			<div class="blogbox">
+
+                <div class="blogcontent" id="wrapper">
+
+                    <img id="first" src="https://cdn.discordapp.com/avatars/515258866712182805/fa412e15c9e946451dd50450e3a4bdac.webp?size=48" width="200" height="auto"></img>
+                    <div id="second"><h1><a style="font-size: 30px; text-align: left; margin-top: 0%; color: #ffffff;" href="blogs/blog1.html">insert big blog name here </a></h1> some blog text here</div>
+                    
+                </div>
+
+
+            </div>
+            
+		</div>
+		
+	</center>
+</body>
+
+
+<style>
+
+ html {
+	 background: black;
+	 color: #ffffff !important;
+	 font-family: monospace;
+ }
+
+ .mainconentwrapper > h1 {
+	 color: #ffffff !important;
+	 text-align: left;
+ }
+
+ .blogtext 
+ {
+    background-color: black;
+	border: black;
+    outline:invert;
+    text-align: left;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+ }
+ .heading {
+	 display: flex;
+	 justify-content: center;
+ }
+
+ .heading > img, heading > a {
+	 width: 48px;
+	 height: 48px;
+	 margin-top: 7px;
+ }
+
+
+ .blogbox {
+	 margin-right: 0px;
+	 border: 1px white solid;
+	 padding: 5px;
+     
+ }
+ .blogcontent {
+	 margin-right: 15%;
+     text-align: left;
+	 padding: 10px;
+     overflow: auto; 
+     
+ }
+#wrapper {
+
+    overflow: auto; /* add this to contain floated children */
+}
+#first {
+    float:left; /* add this */
+
+}
+#second {
+
+    float: left; /* add this */
+}
+ .maincontentwrapper {
+	 margin-top: 50px;
+	 width: 80%;
+ }
+ .rotate {
+	 margin-top: 25px;
+	 margin-right: -20px;
+	 margin-left: 0px;
+	 transform: rotate(90deg);
+ }
+
+ .ihateflexbox {
+	 display: flex;
+	 justify-content: center;
+	 gap: -10px;
+	 flex-direction: column;
+ }
+
+ .ihateflexbox h1 {
+	 margin: 5px;
+ }
+
+ .wrapper {
+	 display: flex;
+	 justify-content: center;
+	 gap: 10px;
+ }
+</style>
